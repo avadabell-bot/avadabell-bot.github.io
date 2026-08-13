@@ -1,0 +1,17 @@
+body{
+    background: #fcffd7fe;
+    background-image: url('https://www.olympics.com/en/news/la28-olympics-hockey-qualification-explained-key-facts-schedule'); 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: cover; 
+    background-attachment: fixed; 
+    min-height: 100vh; 
+    margin: 0;
+}
+
+h1{
+    background: #fcffd7fe;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+
+}
