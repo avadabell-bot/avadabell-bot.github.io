@@ -12,13 +12,13 @@ header{
 
 
 .container {
-  position: fixed;
+  position: absolute;
 }
 
 .text-block {
   position: absolute;
   bottom: 750px;
-  right: 950px;
+  left: 0cqb;
   background-color: rgba(40, 40, 40, 0.599);
   color: white;
   padding-left: 50px;
@@ -33,6 +33,6 @@ header{
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 100px;
   cursor: pointer;
 }
