@@ -4,26 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Document</title>
+    <title>Landing Page</title>
 </head>
 <body>
     <header>
         <div style="display: flex; align-items: baseline; gap: 45px">
-            <h1>It's Your Call!</h1>
-            <h3>Intermediate Edition</h3>
+            <a href="index.html" class="title">
+                <h1>It's Your Call!</h1>
+                <h3>Intermediate Edition</h3>
+            </a> <!-- get rid of underline and make it a link to the home page -->
         </div>
     <nav>
         <div>
             <ul>
-                <button>
-                    <h3>Home</h3>
-                </button>
-                <button>
-                    <h3>Quizzes</h3>
-                </button>
-                <button>
-                    <h3>Rules<h3> 
-                </button>
+                <a href="index.html" class="nav-button"> Home </a>
+                <a href="grade.html" class="nav-button"> Quizzes </a>
+                <a href="rules.html" class="nav-button"> Rules </a>
             </ul>
         </div>
     </nav>
@@ -34,7 +30,7 @@
             <img src="Ball on Field.jpg" alt="Ball on Field" style="width:100%;">
             <div class="text-block">
                 <h4>Are you ready for the the Field?? Lets test that.</h4>
-                        <button class="start-button"> Click to Start the Game </button>
+                        <a href="grade.html" class="button-link"> Click to Start the Game </a>
             </div>
         </div>
     </section>
