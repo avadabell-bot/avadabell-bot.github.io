@@ -8,11 +8,12 @@
 </head>
 <body>
     <header>
-        <div style="display: flex; align-items: baseline; gap: 45px">
+        <div>
             <a href="index.html" class="title">
-                <h1>It's Your Call!</h1>
-                <h3>Intermediate Edition</h3>
-            </a> <!-- get rid of underline and make it a link to the home page -->
+                <h1>
+                    It's Your Call! <span class="subtitle">Intermediate Edition</span>
+                </h1>
+            </a>
         </div>
     <nav>
         <div>
@@ -26,12 +27,14 @@
     </header>
 
     <section>
-        <div class="container">
-            <img src="Ball on Field.jpg" alt="Ball on Field" style="width:100%;"> !set as back ground and faded!
-        </div>
-        <div>
-            <h2> What Grade Are You In? </h2>
-        </div>
+        <style>
+        body{
+            background-image:('Ball on Field.jpg')
+        }
+        </style>
+            <div>
+                <h2> What Grade Are You In? </h2>
+            </div>
     </section>
 </body>
 </html>

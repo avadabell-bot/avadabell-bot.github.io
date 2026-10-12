@@ -12,8 +12,15 @@ header{
     font-size: 25px;   
 }
 .title {
+text-decoration: none;
 font-family:inherit;
 font-size: inherit;
+}
+
+.subtitle {
+  font-size: 30px;
+  color: #ffffff;
+  font-family: inherit;
 }
 
 h2, a{
@@ -23,29 +30,25 @@ h2, a{
 }
 
 h1 {
-    display: block;
-    font-size: 45px;
-    padding: 10px;
-}
-
-h3 {
-    font-size: 30px;
+display: flex;
+align-items: baseline;
+gap: 12px;
 }
 
 .container {
   position: fixed;
+  border-radius: 12px;
 }
 
 .text-block {
   position: fixed;
-  bottom: 400px;
-  left: 20px;
+  bottom: 300px;
+  left: 70px;
   background-color: rgba(40, 40, 40, 0.599);
   color: white;
-  padding-left: 50px;
-  padding-right: 100px;
-  padding-bottom: 20px;
+  padding: 50px;
   border-radius: 12px;
+
 }
 
 button {
