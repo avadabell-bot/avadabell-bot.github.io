@@ -1,9 +1,16 @@
 body{
-    background : #000000;
+    background : #000;
     margin: 0;
     font-size: 25px;
 }
 
+.what-grade{
+  background-image: url("Ball on Field.jpg");
+  opacity: 0.8;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 header{
     background: #000000;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -19,12 +26,12 @@ font-size: inherit;
 
 .subtitle {
   font-size: 30px;
-  color: #ffffff;
+  color: #fff;
   font-family: inherit;
 }
 
 h2, a{
-  color: #ffffff;
+  color: #fff;
   font-family: inherit;
   font-size: 30px;
 }
@@ -55,7 +62,7 @@ button {
   border: none;
   font-size: 30px;
   background-color: #000000;
-  color: #ffffff;
+  color: #fff;
   border-radius: 12px;
   transition: 0.5s;
   font-family: Georgia, 'Times New Roman', Times, serif;
