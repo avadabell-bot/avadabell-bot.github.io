@@ -8,6 +8,15 @@ body{
   color:#fff
 }
 
+.rules-page {
+  background-color: #597154dd;
+  background-size: cover;
+  margin: 0;
+  font-size: inherit;
+  color: #fff;
+  background-image: none;
+}
+
 .hero-box {
   background-image: url("Ball on Field.jpg");
   background-position: top;
@@ -15,24 +24,24 @@ body{
   background-repeat: no-repeat;
   margin: 0;
   font-size: 25px;
-  color:#fff
+  color:#fff;
 }
 
 header{
   background: #302f2f;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  padding: 15px;
+  padding: 10px;
   font-size: inherit;
+  height: 170px;
 }
 
 .title {
   text-decoration: none;
   font-family:inherit;
-  font-size: inherit;
 }
 
 .subtitle {
-  font-size: 30px;
+  font-size: 0.5em;
   color: inherit;
   font-family: inherit;
 }
@@ -47,9 +56,16 @@ h1 {
   display: flex;
   align-items: baseline;
   gap: 12px;
+  font-size: 40px;
 }
 
-h3 {
+h3{
+  font-family: inherit;
+  font-size: 40px;
+  color: #000;
+}
+
+h4{
   font-family: inherit;
   font-size: 30px;
   color: #000;
@@ -57,15 +73,15 @@ h3 {
 
 .text-block {
   position: fixed;
-  bottom: 220px;
-  left: 550px;
+  bottom: 200px;
+  left: 420px;
   background-color: rgba(166, 166, 166, 0.7);
   color:#000;
-  padding: 50px;
+  padding: 30px;
   border-radius: 20px;
   width: 40%;
-  height: 350px;
-  font-size: 50px;
+  height: 250px;
+  font-size: 40px;
 }
 
 button {
@@ -75,7 +91,7 @@ button {
   color: #fff;
   border-radius: 12px;
   transition: 0.5s;
-  font-family: inherit
+  font-family: inherit;
 }
 
 .button-link {
@@ -86,7 +102,7 @@ button {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 35px;
+  font-size: 30px;
   cursor: pointer;
   transition: 0.5s;
   border-radius: 12px;
@@ -94,7 +110,7 @@ button {
 
 .button-link:hover {
   background-color: rgba(10, 153, 2, 0.5);
-  font-size: 45px;
+  font-size: 35px;
   color:#000;
   border-radius: 25px;
 }
@@ -121,6 +137,7 @@ button {
   font-size: 50px;
   color: #000;
   text-align: center;
+  bottom: 450px;
 }
 
 .grid-container {
@@ -136,10 +153,43 @@ div.polaroid {
   bottom: 50px;
   background-color: #fff;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
 }
 
  img {
   width: 100%;
-  size: 400px 400px;
+  height: 400px;
+}
+
+.grade-link {
+  border: none;
+  color: #000;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  cursor: pointer;
+  transition: 0.5s;
+  border-radius: 12px;
+}
+
+.rules-title {
+  text-align: center;
+  color:#000;
+  background-color: rgb(199, 199, 199);
+  font-size: 45px;
+  width: 65%;
+  margin: 0 auto;
+}
+
+.rules-list {
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  font-size: 20px;
+  font-family: inherit;
+  line-height: 2;
+  background-color: rgba(33, 33, 33, 0.264);
+  width: 70%;
 }
