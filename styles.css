@@ -93,8 +93,6 @@ h5{
 }
 
 
-
-
 .text-block {
   position: fixed;
   bottom: 200px;
@@ -240,7 +238,7 @@ img {
 }
 
 
-/*this makes the bullet point into an enoji of a hockey stick*/
+/*this makes the bullet point into an emoji of a hockey stick*/
 ul ::marker{
   content: "🏑";
 }
